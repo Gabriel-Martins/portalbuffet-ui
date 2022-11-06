@@ -91,10 +91,10 @@ function initialize() {
         ]
     }
 ];
-  var myGent = new google.maps.LatLng(40.6946703,-73.9280182);
-  var Kine = new google.maps.LatLng(40.6946703,-73.9280182);
+    var myGent = new google.maps.LatLng(-22.8916, -43.2166);
+    var Kine = new google.maps.LatLng(-22.8916, -43.2166);
   var mapOptions = {
-    zoom: 11,
+    zoom: 15,
     mapTypeControl: true,
     zoomControl: true,
     zoomControlOptions: {
