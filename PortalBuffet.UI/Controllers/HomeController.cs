@@ -15,6 +15,8 @@ namespace PortalBuffet.UI.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.HeaderName = "HeaderHome";
+
             return View();
         }
 

@@ -6,11 +6,14 @@ namespace PortalBuffet.UI.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.HeaderName = "HeaderBuffetList";
             return View();
         }
 
         public IActionResult BuffetPage()
         {
+            ViewBag.HeaderName = "HeaderBuffetPage";
+
             return View();
         }
     }
